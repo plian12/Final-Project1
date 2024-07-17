@@ -1,0 +1,89 @@
+--- Appetizers ---
+Edamame 5.99
+Shumai 7.99
+Gyoza 7.99
+Vegetable Tempura 7.99
+Shrimp Tempura 9.99
+Soft Shell Crab Tempura 10.99
+Egg Roll 3.00
+--- From the Sushi Bar ---
+Sunomono Salad 6.99
+Seaweed Salad 5.99
+Spicy Cucumber Salad 7.99
+Sushi Appetizer 9.99
+Sashimi Appetizer 13.95
+Sushi and Sashimi Combo 14.95
+--- Hibaci Entrees ---
+Fried Rice 1.50
+Hibachi Chicken 16.99
+Hibachi Steak 20.99
+Hibachi Filet Mignon 25.99
+Hibachi Shrimp 21.99
+Hibachi Salmon 23.99
+Hibachi Orange Roughy
+Hibachi Lobster 36.99
+Hbachi Vegetable Dinner 14.99
+--- Yakisoba Specials ---
+Chicken Yakisoba 16.99
+Steak Yakisoba 19.99
+Shrimp Yakisoba 20.99
+--- Children's Menu (Under 10) ---
+Kid's Chicken 10.99
+Kid's Steak 12.99
+Kid's Filet Mignon 15.99
+Kid's Shrimp 12.99
+Kid's Scallop 13.99
+Kid's Lobster 18.99
+--- Side Order ---
+Extra Chicken 7.99
+Extra Steak 9.99
+Extra Filet Mignon 12.99
+Extra Shrimp 8.99
+Extra Scallop 9.99
+Sauteed Mushroom 4.99
+Chicken Liver 6.99
+Kazan Fried Rice 4.99
+--- Desserts ---
+Mochi Ice Cream 4.99
+Cheesecake 4.50
+Ice Cream 4.50
+Cheesecake & Ice Cream 5.99
+Tempura Ice Cream 6.99
+Tempura Cheesecake
+--- Hibachi Double Combinations ---
+Steak & Chicken 23.99
+Shrimp & Chicken 23.99
+Steak & Salmon 24.99
+Shrimp & Scallop 25.99
+Filet Mignon & Chicken 27.99
+Filet Mignon & Shrimp 29.99
+Filet Mignon & Scallop 30.99
+Filet Mignon & Lobster 35.99
+Shrimp & Lobster 32.99
+--- Hibachi Trimple Combinations ---
+Steak, Chicken, Shrimp 29.99
+Filet Mignon, Shrimp & Chicken 32.99
+Filet Mignon, Shrimp & Scallop 35.99
+Filet Mignon, Shrimp & Lobster 37.99
+Filet Mignon, Scallop & Chicken 38.99
+Shrimp, Scallop & Lobster 37.99
+--- Special Drink ---
+Green Dragon 7.25
+Black Belt 7.25
+Fujiyama 7.25
+Kazan Suprise 7.25
+--- Special Cocktail ---
+Maneki Neko 10.95
+Dancing Girl 10.95
+Geisha 10.95
+Karate Punch 10.95
+Tanuki 10.95
+--- Non-Alcoholic ---
+Coke, Diet Coke, Sprite, Ginger Ale, Mr.Pibbs 2.75
+Pink Lemonda (Free refill) 2.75
+Iced Tea, Green Tea (Free refill) 2.95
+Orange juice, Pineapple juice, Cranberry juice 2.95
+Milk 2% Regular/Chcolate 2.95
+Ramune (Japanese Marble Drink) Regular/Strawberry 3.75
+Bottle Spring Water 16 oz 2.99
+Perrier SParking, Bottle 330 ml 4.25

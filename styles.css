@@ -47,6 +47,10 @@ h2 {
     margin-bottom: 1rem;
     font-weight: bold;
 }
+.item-name:hover {
+    cursor: pointer;
+
+}
 
 ul {
     list-style: none;

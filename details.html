@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Item Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function loadItemDetails() {
+            const params = new URLSearchParams(window.location.search);
+            const itemName = params.get('name');
+            const itemPrice = params.get('price');
+
+            document.getElementById('item-name').innerText = itemName;
+            document.getElementById('item-price').innerText = itemPrice;
+
+            // Add a description
+            const descriptions = {
+                "Edamame": "Steamed and lightly salted edamame beans.",
+                "Shumai": "Delicious shrimp dumplings served with dipping sauce.",
+                // Add descriptions for other items
+            };
+
+            document.getElementById('item-description').innerText = descriptions[itemName] || "No description available.";
+        }
+    </script>
+</head>
+<body onload="loadItemDetails()">
+    <header>
+        <h1>Menu Item Details</h1>
+        <button onclick="goBack()">Back to Menu</button>
+    </header>
+    <main>
+        <h2 id="item-name"></h2>
+        <p id="item-price"></p>
+        <p id="item-description"></p>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

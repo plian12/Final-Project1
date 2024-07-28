@@ -1,33 +1,36 @@
 /* CSS for the restaurant website */
 
-nav {
-    background-color: #555;
-    text-align: center;
-    padding: 10px 0;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-nav a:hover {
-    background-color: #777;
-}
-
 a {
     text-decoration: none;
   }
 
 .lookup-container {
     margin-top: 30px;
-    margin-right: 50px;
+    margin-right: 60px;
     text-align: center;
     float: right
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #333;
+    background-color: #fff;
+}
+
+.btn-secondary:hover {
+    color: #ed6a6a;
+    background-color: #e6e6e6;
+    border-color: #adadad;
 }
 
 body {
@@ -104,7 +107,7 @@ li {
 }
 
 footer {
-    background-color: #333;
+    background-color: #ed6a6a;
     color: #fff;
     text-align: center;
     padding: 10px 0;

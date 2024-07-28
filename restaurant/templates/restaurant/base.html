@@ -10,9 +10,19 @@
     <body>
         <header> 
             <div class="lookup-container">
-                <a href="{% url 'customer_lookup' %}">
-                    <button type="button">Search or Add Customer</button>
-                </a>
+                {% if user.is_authenticated %}
+
+                    <a href="{% url 'customer_lookup' %}" class=" search-box">
+                        <button type="button">Search or Add Customer</button>
+                    </a>
+                    <a href="{% url 'logout' %}" class="top-menu">
+                        {% include './icons/door-open-fill.svg' %}
+                    </a>
+                {% else %}
+                    <a href="{% url 'login' %}" class="top-menu">
+                        {% include './icons/door-open.svg' %}
+                    </a>
+                {% endif %}
             </div>
             <div>
             <h1><a href="/">Kazan Japanese Steakhouse </a></h1>
@@ -25,7 +35,12 @@
 
             {% endblock %}
         </div>
+        <footer>
+            <p>&copy; 2024 Kazan Japanese Steakhouse</p>
+        </footer>
+    
     </body>
+
 
 
 </html>

@@ -9,7 +9,7 @@
                 <input type="text" name="search_term" placeholder="Enter name or phone number">
                 <button type="submit">Search</button>
             </form>
-            <div class="customer-list">
+            <div class="customer_list">
                 {% for customer in customers %}
                     <div class="customer-item">
                         <p>{{ customer.name }} - {{ customer.phone_number }}</p>
@@ -17,12 +17,12 @@
                     </div>
                 {% endfor %}
             </div>
-            <div class="add-customer">
+            <div class="add_customer">
                 <a href="{% url 'add_customer' %}">
                     <button type="button">Add New Customer</button>
                 </a>
             </div>
-            <div class="back-button">
+            <div class="back_button">
                 <a href="{% url 'home' %}">
                     <button type="button">Back</button>
                 </a>

@@ -2,11 +2,13 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.db.models import Q
 from .models import Customer
 from .forms import CustomerForm
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 def home(request):
     return render(request, 'restaurant/home.html')
 
+@login_required
 def add_customer(request):
     if request.method == 'POST':
         name = request.POST.get('name', '').strip()
@@ -18,7 +20,7 @@ def add_customer(request):
             return render(request, 'restaurant/add_customer.html', {'error': 'Name and phone number are required.'})
 
         # Check if a customer with the phone number already exists
-        customer, created = Customer.objects.get_or_create(phone_number=phone_number, defaults={'name': name})
+        created = Customer.objects.get_or_create(phone_number=phone_number, defaults={'name': name})
         
         if not created:
             # Customer already exists
@@ -28,7 +30,7 @@ def add_customer(request):
 
     return render(request, 'restaurant/add_customer.html')
 
-
+@login_required
 def customer_lookup(request):
     customers =[]
 
@@ -40,6 +42,7 @@ def customer_lookup(request):
 
     return render(request, 'restaurant/customer_lookup.html', {'customers': customers})
 
+@login_required
 def customer_detail(request, customer_id):
     customer = get_object_or_404(Customer, id=customer_id)
 
